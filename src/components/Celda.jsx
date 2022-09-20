@@ -1,10 +1,10 @@
 import React from "react";
 
-function Celda() {
+function Celda(props) {
     
     return(
         <div className="celda">
-            
+            <p>{props.valor}</p>
         </div>
     )
 }
